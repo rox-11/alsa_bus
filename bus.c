@@ -12,9 +12,6 @@ int main(){
     return 0;
 }
 
-// take value 
-// point the value from data base or what ever 
-//printf it 
 
 int alsa(){
     FILE *file;
@@ -33,7 +30,7 @@ int alsa(){
     }
     if (i != line_nemb){
     
-
+// this citys dont found in the addr*.txt 
          if (line_nemb == 95){
             printf("95) الولاية - بن سركاو - سوق انزكان - ايت ملول ");
          }else if (line_nemb == 97){
@@ -47,6 +44,7 @@ int alsa(){
         }
     }
 
+// close file
     fclose(file);
 
     return 0;
