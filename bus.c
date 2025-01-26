@@ -5,9 +5,9 @@
 int alsa();
 
 int main(){
-    printf("\nthis is a bus tool for craze peple\n");
-    printf(" #### >> this tool maded for find and now nember of the bus and the place that it.s go in agadir city \n");
-    printf("write the name of place or the nember of bus");
+    printf("\nthis is a bus tool for craze people\n");
+    printf(" #### >> this tool maded for find and know number of the bus and the place that it.s go in agadir city \n");
+    printf("write the the nember of bus");
     alsa();
     return 0;
 }
